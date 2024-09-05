@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Webinar Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Video -->
+    <video class="background-video" autoplay loop muted playsinline>
+        <source src="background-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Header with Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#details">Event Details</a></li>
+                <li><a href="#presenter">Presenter</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to Our Free Webinar Registration</h1>
+            <p>Join us to learn the latest strategies and tips from industry experts.</p>
+            <button onclick="document.getElementById('registration-form').scrollIntoView()">Reserve Your Spot</button>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About the Webinar</h2>
+        <p>Get in-depth insights into digital marketing strategies that can transform your business. Our expert, Jane Smith, will cover the latest trends and techniques.</p>
+    </section>
+
+    <section id="details" class="container">
+        <h2>Event Details</h2>
+        <p><strong>Date:</strong> September 15, 2024</p>
+        <p><strong>Time:</strong> 3:00 PM - 4:00 PM (EST)</p>
+        <p><strong>Presenter:</strong> Jane Smith, Digital Marketing Expert</p>
+    </section>
+
+    <section id="presenter" class="container">
+        <h2>About the Presenter</h2>
+    <h1><b>Jane Smith<b></h1>
+        <p>Jane Smith is a seasoned digital marketing expert with over 10 years of experience in the industry. She has helped numerous businesses grow their online presence and achieve their marketing goals.</p>
+    </section>
+
+    <section id="testimonials" class="container">
+        <h2>What Our Attendees Say</h2>
+        <blockquote>
+            <p>"Jane's webinars are always insightful and full of actionable tips!" - Alex R.</p>
+        </blockquote>
+        <blockquote>
+            <p>"Great content, great presenter, highly recommended." - Maria T.</p>
+        </blockquote>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <form id="message-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+            <div id="form-message"></div>
+        </form>
+        
+        <p>Or reach us at <a href="mailto:info@example.com">info@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Free Webinar. All rights reserved.</p>
+        <p> <a href="https://facebook.com">Facebook</a>,<space> <a href="https://twitter.com">Twitter</a>, and <a href="https://linkedin.com">LinkedIn</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
